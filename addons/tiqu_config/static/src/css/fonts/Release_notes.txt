@@ -1,0 +1,31 @@
+==Release notes_Wiener Melange==
+
+Compiler of release notes: Dalton Maag
+Designer: Dalton Maag
+Designer URL: daltonmaag.com
+
+Date of creation: 2019-08-26
+
+Changes since previous release:
+- Add condensed fonts
+
+Basic information
+1 Basic Family name: Wiener Melange
+2 TrueType Version record: 1.300
+3 Regional package: Western European
+4 Supported scripts: Latin
+5 Number of glyphs: Normal: 327, Condensed: 318
+6 Weights/Styles: Regular, Bold, Extra Bold, Condensed Regular, Condensed Bold
+7 Usage: Text and Display
+
+Technology
+1 The files have been delivered in the TrueType-based OpenType format, for use in all major Operating Systems, and also as TTF for use in apps, and in web font format: WOFF; WOFF2.
+2 Embedding settings: Editing of the document is allowed (editable mode); subsetting is allowed.
+3 Hinting information: All glyphs are manually hinted for optimized rasterization in Microsoft ClearType or for other LCD devices.
+4 Default numerals: Proportional. Tabular figures accessible via OpenType features.
+
+Other Information
+1 The Shield is accessible through the OpenType Contextual Alternates feature (calt) by typing: StadtWienWappen (Refer to the manual for further information)
+2 The font contains the following OpenType Stylistic Sets:
+ss01: Wordmark (Regular, Bold and Extra Bold only)
+ss02: Alternate ampersand

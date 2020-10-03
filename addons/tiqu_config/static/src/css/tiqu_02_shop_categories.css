@@ -1,0 +1,175 @@
+/* ------------------- */
+/* SHOP CATEGORY PAGES */
+/* ------------------- */
+
+/* Product GRID */
+/* ------------ */
+#products_grid .oe_product section {
+    background: #666666;
+    font-size: 20px;
+}
+#products_grid .oe_product section h5 {
+    font-size: 20px;
+}
+#products_grid .oe_product section a {
+    color: white;
+}
+#products_grid .product_price.text-primary {
+    color: white;
+}
+#products_grid .oe_product .oe_product_image img {
+    height: 100%;
+    max-height: initial;
+    width: auto;
+    max-width: initial;
+}
+
+.oe_product .oe_product_image {
+     left: 0px !important;
+     right: 0px !important;
+     top: 0px !important;
+     bottom: 0px !important;
+}
+/* hide description in Kacheln*/
+
+#products_grid .oe_product.oe_grid .text-info.oe_subdescription {
+    display: none;
+}
+
+/* special design for additional add to cart button within shop grid view */
+.oe_product_cart .quick_add_to_cart {
+    position: relative;
+    bottom: 10px;
+}
+.oe_product_cart .quick_add_to_cart .a-submit a {
+    width: 100%
+}
+.oe_product_cart .quick_add_to_cart .a-submit.fa-shopping-cart:before {
+    padding-right:10px;
+}
+
+/* reverse Shop Grid and Cart, move cart under shop grid */
+body[data-rootcatid="2"] #wrap > div.container.oe_website_sale > div.row {
+    display: flex;
+    flex-direction: column-reverse;
+}
+body[data-rootcatid="2"] .products_pager .input-group {
+    display: none;
+}
+body[data-rootcatid="2"] #products_grid_before {
+    margin-top: 3.5em;
+}
+
+/* reverse Shop Grid and Cart, move cart under shop grid */
+body[data-rootcatid="3"] #wrap > div.container.oe_website_sale > div.row {
+    display: flex;
+    flex-direction: column-reverse;
+}
+body[data-rootcatid="3"] .products_pager .input-group {
+    display: none;
+}
+body[data-rootcatid="3"] #products_grid_before {
+    margin-top: 3.5em;
+}
+
+/* reverse Shop Grid and Cart, move cart under shop grid */
+body[data-rootcatid="4"] #wrap > div.container.oe_website_sale > div.row {
+    display: flex;
+    flex-direction: column-reverse;
+}
+body[data-rootcatid="4"] .products_pager .input-group  {
+    display: none;
+}
+body[data-rootcatid="4"] #products_grid_before {
+    margin-top: 3.5em;
+}
+
+/* reverse Shop Grid and Cart, move cart under shop grid */
+body[data-rootcatid="5"] #wrap > div.container.oe_website_sale > div.row {
+    display: flex;
+    flex-direction: column-reverse;
+}
+body[data-rootcatid="5"] .products_pager .input-group  {
+    display: none;
+}
+body[data-rootcatid="5"] #products_grid_before {
+    margin-top: 3.5em;
+}
+/* reverse Shop Grid and Cart, move cart under shop grid */
+body[data-rootcatid="6"] #wrap > div.container.oe_website_sale > div.row {
+    display: flex;
+    flex-direction: column-reverse;
+}
+body[data-rootcatid="6"] .products_pager .input-group  {
+    display: none;
+}
+body[data-rootcatid="6"] #products_grid_before {
+    margin-top: 3.5em;
+}
+
+/* reverse Shop Grid and Cart, move cart under shop grid */
+body[data-rootcatid="7"] #wrap > div.container.oe_website_sale > div.row {
+    display: flex;
+    flex-direction: column-reverse;
+}
+body[data-rootcatid="7"] .products_pager .input-group  {
+    display: none;
+}
+body[data-rootcatid="7"] #products_grid_before {
+    margin-top: 3.5em;
+}
+
+@media (max-width: 768px) {
+    .oe_product section {
+        top: 296px !important;
+    }
+        body[data-rootcatid="2"] #products_grid_before {
+        margin-top: 4.5em;
+    }
+        body[data-rootcatid="3"] #products_grid_before {
+        margin-top: 4.5em;
+    }
+        body[data-rootcatid="4"] #products_grid_before {
+        margin-top: 4.5em;
+    }
+        body[data-rootcatid="5"] #products_grid_before {
+        margin-top: 4.5em;
+    }
+        body[data-rootcatid="6"] #products_grid_before {
+        margin-top: 4.5em;
+    }
+        body[data-rootcatid="7"] #products_grid_before {
+        margin-top: 4.5em;
+    }
+}
+.oe_website_sale {
+    margin-bottom: 4em !important;
+}
+.oe_product section {
+    top: 138px;
+    min-height: 80px !important;
+}
+/* TODO: Shop Grid Size for col md-12 and two products per row
+         You may need to remove the original css of website.sale becaues the media queries are different for rnde!
+*/
+body .col-md-12 .oe-height-2 {
+  height: 380px;
+}
+/* bis 400 px */
+@media (max-width: 400px) {
+    body #products_grid .oe_product section {
+        background: #f8f8f8;
+    }
+}
+/* ab 992px */
+@media (min-width: 992px) {
+    body .col-md-12 .oe-height-2 {
+        height: 380px;
+    }
+}
+/* ab 1200px */
+@media (min-width: 1200px) {
+    body .col-md-12 .oe-height-2 {
+        height: 380px;
+    }
+}

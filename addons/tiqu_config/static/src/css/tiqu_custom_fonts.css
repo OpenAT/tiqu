@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "WienerMelange TQ BD";
+  font-display: swap;
+  /* src: local('WienerMelange TQ BD'), local('WienerMelange-TQ-BD'), url("https://www.tierquartierwien.at/wp-content/uploads/et-fonts/WienerMelange_Bd.ttf") format("truetype");*/
+   src: local('WienerMelange TQ BD'), local('WienerMelange-TQ-BD'), url('/fso_website_email_tiqu/static/src/fonts/Web/WOFF/WienerMelange_W_Bd.woff') format('woff');
+   src: local('WienerMelange TQ BD'), local('WienerMelange-TQ-BD'), url('/fso_website_email_tiqu/static/src/fonts/Web/WOFF2/WienerMelange_W_Bd.woff2') format('woff2');
+   src: local('WienerMelange TQ BD'), local('WienerMelange-TQ-BD'), url('/fso_website_email_tiqu/static/src/fonts/WienerMelange_Bd.ttf') format('truetype');
+}

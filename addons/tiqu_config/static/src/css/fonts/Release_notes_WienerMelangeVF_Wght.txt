@@ -1,0 +1,38 @@
+==Release notes_Wiener Melange VF==
+
+Compiler of release notes: Dalton Maag
+Designer: Dalton Maag
+Designer URL: daltonmaag.com
+
+Date of creation: 2019-08-02
+
+Changes since previous release:
+- Add /ruble currency symbol
+- Add language support for Western European.
+- Included tabular figures
+
+Basic information
+1 Basic Family name: Wiener Melange VF
+2 TrueType Version record: 1.201
+3 Regional package: Latin
+4 Supported scripts: Latin
+5 Number of glyphs: 327
+6 Usage: Text and Display
+7 Number of axes: 1
+8 Axes:
+    - Weight
+        tag: wght
+        range: 400 (Regular) - 800 (Extra Bold)
+9 Named instances: Regular, Bold, Extra Bold
+
+Technology
+1 File formats: The file has been delivered as variable font in TrueType-based OpenType format, for use in all major Operating Systems.
+2 Embedding settings: Editing of the document is allowed (editable mode); subsetting is allowed.
+3 Hinting information: No hinting.
+4 Default numerals: Proportional. Tabular figures accessible via OpenType features.
+
+Other Information
+1 The Shield is accessible through the OpenType Contextual Alternates feature (calt) by typing: StadtWienWappen (Refer to the manual for further information)
+2 The font contains the following OpenType Stylistic Sets:
+ss01: Wordmark
+ss02: Alternate ampersand

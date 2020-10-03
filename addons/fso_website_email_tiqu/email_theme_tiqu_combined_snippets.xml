@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+
+
+    <!-- INHERIT AND EXTEND theme_default_snippets -->
+    <template id="email_theme_tiqu_snippets_overrides_prat2" inherit_id="fso_website_email.theme_framework_snippets"
+              name="Email Theme tiqu Snippet overrides part2">
+
+        <xpath expr="//li[@id='snippet_menu_special']" position="after">
+            <li id="snippet_menu_combined_snippets_tiqu">
+                <a href="#combined_snippets_tiqu" data-toggle="tab">Combined</a>
+            </li>
+        </xpath>
+
+        <!-- ======================= -->
+        <!--  tiqu COMBINED SNIPPETS -->
+        <!-- ======================= -->
+        <xpath expr="//div[@id='snippet_email_special']" position="after">
+            <div id="combined_snippets_tiqu" class="tab-pane fade">
+
+                <!-- HEADER SNIPPET BLOCK ALLG -->
+                <!-- =============== -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_tiqu/static/src/icons/tiqu_nl_header_icon.png"/>
+                        <span class="oe_snippet_thumbnail_title">Header Snippet</span>
+                    </div>
+                    <div id="combinedheadersnippetWebVersion" class="oe_snippet_body ckediting_disabled tiqu_bin">
+                     <div class="snippet_block ckediting_enabled snippet_block_text_intro tiqu_sb_bg_background">
+                        <table class="centeringTable" cellpadding="0" cellspacing="0">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="top">
+                                        <table class="flexibleContainer" border="0" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="flexibleContainerCell" align="center" valign="top">
+                                                        <table class="nestedContainer" border="0" cellpadding="0"
+                                                               cellspacing="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="nestedContainerCell" align="center"
+                                                                        valign="top">
+                                                                        <table class="contentTable" border="0"
+                                                                               cellpadding="0" cellspacing="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td class="textContent ckediting_enabled"
+                                                                                        contenteditable="true">
+                                                                                        <p class="tiqu_tiny"
+                                                                                           style="text-align: center;">
+                                                                                            <a href="%open_browser%" data-cke-saved-href="%open_browser%" target="_blank" style="text-align: center; color: gray; font-weight: 700; font-size: 12px;">Hier gehts zur Online Version</a>
+                                                                                        </p>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div id="combinedheadersnippet" class="ckediting_enabled snippet_block_text_image_left tiqu_snippet_block_padding_none">
+                        <table cellpadding="0" cellspacing="0" class="centeringTable">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="top">
+                                        <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="center" class="flexibleContainerCell" valign="top">
+                                                        <table border="0" cellpadding="0" cellspacing="0"
+                                                               class="nestedContainer">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="center" class="nestedContainerCell"
+                                                                        valign="top">
+                                                                        <table border="0" cellpadding="0"
+                                                                               cellspacing="0" class="contentTable">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td class="textContent">
+                                                                                        <table align="left"
+                                                                                               border="0"
+                                                                                               cellpadding="0"
+                                                                                               cellspacing="0"
+                                                                                               class="flexibleContainerLeft">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td align="left"
+                                                                                                        class="imageContent ckediting_enabled"
+                                                                                                        valign="top">
+                                                                                                        <a href="https://www.tierquartier.at">
+                                                                                                            <img class="flexibleImage tqtlogo" src="/fso_website_email_tiqu/static/src/img/TQT_Logofreigestellt.png" width="122" alt="tiqu logo" style="display: block; border: 0px; outline: none; width: 100%; height: auto; max-height: 98px; max-width: 122px;"></img>
+                                                                                                        </a>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div id="headline" class="ckediting_enbled snippet_block snippet_block_text_intro tiqu_sb_bg_red">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent ckediting_enabled">
+                                                                                            <h4 style="text-align: right; color:#ffffff;">
+                                                                                                NOTFALL! 62 Katzen aus „Animal Hoarder“-Wohnung gerettet!
+                                                                                            </h4>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="ckediting_disabled snippet_block snippet_block_banner dadi_sb_bg_full"
+                             contenteditable="false">
+                            <table class="centeringTable" cellpadding="0" cellspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table class="flexibleContainer" border="0" cellpadding="0" cellspacing="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="flexibleContainerCell" align="center" valign="top">
+                                                            <table class="nestedContainer" border="0" cellpadding="0"
+                                                                   cellspacing="0">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="nestedContainerCell" align="center"
+                                                                            valign="top">
+                                                                            <table class="contentTable" border="0"
+                                                                                   cellpadding="0" cellspacing="0">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent ckediting_enabled"
+                                                                                            contenteditable="true">
+                                                                                            <a data-cke-saved-href="#"
+                                                                                               href="#">
+                                                                                                <img src="/fso_website_email_tiqu/static/src/img/header.jpg" class="flexibleImage snippet_block_banner_image"/>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!-- FOOTER SNIPPET BLOCK -->
+                <!-- =============== -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_tiqu/static/src/icons/tiqu_nl_footer_icon.png"/>
+                        <span class="oe_snippet_thumbnail_title">Footer Snippet</span>
+                    </div>
+                    <div id="combinedsnippetfooter" class="oe_snippet_body ckediting_disabled tiqu_bin">
+
+                        <div class="ckediting_disabled snippet_block snippet_block_spacer dadi_sb_spacer_solid">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent">
+                                                                                            <table border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="snippet_block_spacer_top">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td>&amp;nbsp;</td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+
+                                                                                            <table border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="snippet_block_spacer_bottom">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td>&amp;nbsp;</td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="ckediting_disabled snippet_block snippet_block_banner dadi_sb_bg_full">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent ckediting_enabled">
+                                                                                            <a href="#">
+                                                                                                <img class="flexibleImage snippet_block_banner_image"
+                                                                                                     src="/fso_website_email_tiqu/static/src/img/helpline.jpg"/>
+                                                                                            </a>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div id="actionsection" class="ckediting_disabled snippet_block snippet_block_text_twocol">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent">
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainerLeft">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            valign="top">
+                                                                                                            <img class="flexibleImage"
+                                                                                                                 src="/fso_website_email_tiqu/static/src/icons/button-tiervergabe_pfote.png"
+                                                                                                                 width="80"
+                                                                                                                 alt="pfote Tiervergabe"
+                                                                                                                 style="display: block; border: 0px; outline: none; width: 100%; height: auto; max-height: 80px; max-width: 80px;"/>
+                                                                                                            <h5>Tiervergabe im<br></br>
+                                                                                                                TierQuarTier Wien
+                                                                                                            </h5>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+
+                                                                                            <table align="right"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainerRight">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            valign="top">
+                                                                                                            <img class="flexibleImage"
+                                                                                                                 src="/fso_website_email_tiqu/static/src/icons/button-unterstuetzen-sie-uns.png"
+                                                                                                                 width="80"
+                                                                                                                 alt="herz unterstützen"
+                                                                                                                 style="display: block; border: 0px; outline: none; width: 100%; height: auto; max-height: 80px; max-width: 80px;"/>
+                                                                                                            <h5>Unterstützen<br></br>
+                                                                                                                Sie uns
+                                                                                                            </h5>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div id="mediaicons" class="ckediting_disabled snippet_block snippet_block_text_intro tiqu_sb_bg_dark_grey">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell" valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center" class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0" class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent ckediting_enabled">
+                                                                                            <p style="text-align: center;">
+                                                                                                <a href="https://www.facebook.com/tierquartier/" target="_blank" style="display: inline-block; text-decoration: none;">
+                                                                                                    <img src="/fso_website_email_tiqu/static/src/icons/FB-Button.png" style="width:32px; margin: 0 20px; border:0 none;"/>
+                                                                                                </a>
+                                                                                                <a href="https://www.instagram.com/tierquartier/" target="_blank" style="display: inline-block; text-decoration: none;">
+                                                                                                    <img src="/fso_website_email_tiqu/static/src/icons/IG-Button.png" style="width:32px; margin: 0 20px; border:0 none;" />
+                                                                                                </a>
+                                                                                                <a href="https://www.youtube.com/user/TierQuarTier" target="_blank" style="display: inline-block; text-decoration: none;">
+                                                                                                    <img src="/fso_website_email_tiqu/static/src/icons/YouTube-Button.png" style="width:32px; margin: 0 20px; border:0 none;"/>
+                                                                                                </a>
+                                                                                                <a href="https://twitter.com/hashtag/tierquartier" target="_blank" style="display: inline-block; text-decoration: none;">
+                                                                                                    <img src="/fso_website_email_tiqu/static/src/icons/Twitter-Button.png" style="width:32px; margin: 0 20px; border:0 none;"/>
+                                                                                                </a>
+                                                                                            </p>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="ckediting_disabled snippet_block snippet_block_text_image_right" contenteditable="false" style="background-color:#444444">
+                            <table class="centeringTable" cellpadding="0" cellspacing="0">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table class="flexibleContainer" border="0" cellpadding="0" cellspacing="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="flexibleContainerCell" align="center" valign="top">
+                                                            <table class="nestedContainer" border="0" cellpadding="0"
+                                                                   cellspacing="0">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="nestedContainerCell" align="center"
+                                                                            valign="top">
+                                                                            <table class="contentTable" border="0"
+                                                                                   cellpadding="0" cellspacing="0">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent">
+                                                                                            <table class="flexibleContainerLeft"
+                                                                                                   align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td valign="top"
+                                                                                                            class="textContent ckediting_enabled" contenteditable="true">
+                                                                                                            <p class="tiqu_small" style="color:white;">
+                                                                                                TierQuarTier Wien<br></br>
+                                                                                                Süßenbrunner Straße 101, 1220 Wien<br></br>
+                                                                                                Telefon: +43 1 734 11 02 - 0<br></br>
+                                                                                                Fax: +43 1 734 11 02 - 77<br></br>
+                                                                                                <a href="mailto:office@tierquartier.at" style="color:white;">
+                                                                                                    office@tierquartier.at</a><br></br>
+                                                                                                <a href="www.tierquartier.at" target="_blank" style="color:white;">
+                                                                                                    www.tierquartier.at
+                                                                                                </a>
+                                                                                            </p>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                            <table align="right"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainerRight">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="left"
+                                                                                                            class="imageContent ckediting_enabled"
+                                                                                                            valign="top"
+                                                                                                            contenteditable="true">
+                                                                                                            <p style="text-align: center;"></p>
+                                                                                                            <img src="/fso_website_email_tiqu/static/src/img/tierquartier_logo_stadtwien_trans-1.png" width="250" alt="tq und stadt Wien" style="display: block; border: 0px; outline: none; width: 100%; height: auto; max-height: 100px; max-width: 250px;" class="flexibleImage"/>
+                                                                                                            <p style="text-align: center;">
+                                                                                                                <span style="color:#cccccc;">
+                                                                                                                    Impressum
+                                                                                                                    |
+                                                                                                                    Abmelden
+                                                                                                                </span>
+                                                                                                            </p>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+
+</data>
+</openerp>
