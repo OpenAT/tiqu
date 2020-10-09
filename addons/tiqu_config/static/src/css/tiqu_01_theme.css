@@ -224,3 +224,22 @@ body .oe_blue {
     color: white;
 }
 
+/* IFRAME MODAL BOX BEHAVIOR BEGIN */
+
+#wsd_checkout_form .form-group {
+        position: relative !important;
+}
+.modal-open .modal {
+        overflow: visible !important;
+}
+.modal {
+    position: absolute !important;
+}
+
+#oe_main_menu_navbar div.modal.in > div.modal-dialog > div.modal-content {
+    position: relative;
+}
+/* BODY SCROLL AFTER ADDING MODAL BEHAVIOR -- STILL NEED TESTS */
+#wsd_checkout_steps_nav > div > div > a[href*="login"].btn.btn-primary.navbar-btn {
+  display: none;
+}

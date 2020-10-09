@@ -41,8 +41,47 @@ body #wsd-checkout-box {
 .payment_interval_ids div.form-group{
     margin-top: 12px;
 }
+.product_price {
+    display: inline-block;
+}
+#price_donate {
+    text-align: center;
+    width: 144px;
+    font-size: 32px;
+    border: solid 6px #ed7f05;
+    height: 60px;
+    border-radius: 25px 25px 25px 25px;
+    background-color: #ffffff;
+}
+#wsd_checkout_form > div > div.product_price.mt16 > h4.oe_price_h4.css_editable_mode_hidden.decimal_precision > div > div > div > span:nth-child(4) {
+    display: none;
+}
+.price_donate .input-group-addon {
+    border: none;
+    color: #000 !important;
+    font-size: 36px;
+    box-shadow: none !important;
+}
+.billing-fields input {
+    background: rgba(0, 0, 0, 0.02);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #bbbbbb;
+}
+.billing-fields input:focus {
+    background: rgba(255, 180, 0, 0.08) !important;
+}
+.price_donate_suggested_currency {
+    margin-left: 15px;
+}
 
-
+#wsd_checkout_form .form-control-feedback {
+    top: 28px;
+}
+#wsd_checkout_form .payment_interval_ids .form-group.has-feedback .form-control-feedback {
+    top: 0px;
+}
 /* ---- */
 /* CART */
 /* ---- */
