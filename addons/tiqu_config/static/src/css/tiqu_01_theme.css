@@ -204,7 +204,7 @@ nav li ul li {
 /* DEFAULT ODOO COLORS */
 /* ------------------- */
 body .oe_grey {
-    background-color: #eee !important;
+    background-color: #eeeeee !important;
 }
 body .oe_grey_light {
     background-color: #eeeeeec7 !important;
@@ -212,6 +212,12 @@ body .oe_grey_light {
 body .oe_red {
     background-color: #d80029 !important;
     color: white;
+}
+body .oe_rosa {
+    background-color: #f1e8df !important;
+}
+body .oe_orange {
+    background-color: #ed7f05 !important;
 }
 body .oe_white {
     background-color: #ffffff !important;

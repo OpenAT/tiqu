@@ -147,11 +147,11 @@ ul.checkout_steps_indicator.nav-tabs > li.active > a {
 }
 .nav-tabs > li.active > a:hover {
     background-color: #d80029;
-    color: #fff;
+    color: #000;
 }
 ul.checkout_steps_indicator.nav-tabs > li > a {
     border-color: #ed7f05;
-    color: #fff;
+    color: #000;
 }
 ul.checkout_steps_indicator.nav-tabs > li > a:hover {
     border-color: #d80029;
