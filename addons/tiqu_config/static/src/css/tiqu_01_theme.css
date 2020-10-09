@@ -93,6 +93,20 @@ nav li ul li {
     font-family: 'WienerMelange TQ BD';
     text-transform: none;
 }
+/*Iframe anpassungen für tiqu */
+@media (min-width: 992px) {
+    .container {
+        width: 1180px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+#product_desc_short > section {
+    margin-top: 0px;
+}
+body #wsd-checkout-box {
+    margin-top: 0px;
+}
 
 /* ------------------- */
 /* BOOTSTRAP MODAL BOX */
