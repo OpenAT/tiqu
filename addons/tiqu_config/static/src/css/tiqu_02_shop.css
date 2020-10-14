@@ -100,6 +100,50 @@ body #wsd-checkout-box {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
+#add_to_cart {
+    background: #ed7f05;
+    text-transform: uppercase;
+    border: 2px solid #ed7f05;
+    /*padding: 9px 20px;*/
+    /*width: 150px;*/
+    /*height: 30px;*/
+    /*margin: 10px auto 10px auto;*/
+    cursor: pointer;
+    font-size: 16px !important;
+    font-weight: 600;
+    color: #ffffff;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    border-radius: 35px !important;
+}
+#add_to_cart:hover {
+    background: #1d1d1d;
+    color: #fff;
+}
+span.price_donate_suggested_outer .btn-default {
+    background: #ed7f05;
+    text-transform: uppercase;
+    border: 2px solid #ed7f05;
+    /*padding: 9px 20px;*/
+    /*width: 150px;*/
+    /*height: 30px;*/
+    /*margin: 10px auto 10px auto;*/
+    cursor: pointer;
+    font-size: 16px !important;
+    font-weight: 600;
+    color: #ffffff;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    border-radius: 35px !important;
+}
+span.price_donate_suggested_outer .btn-default:hover {
+    background: #1d1d1d;
+    color: #fff;
+}
+
 .payment_interval_info.text-muted {
     margin-top: 0px !important;
 }
