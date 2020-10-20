@@ -14,6 +14,7 @@
         
         <link href='/fso_website_email_tiqu/static/src/css/email_theme_tiqu_responsive.css' rel='stylesheet' type='text/css' t-ignore="true"/>
         <link href='/fso_website_email_tiqu/static/src/css/email_theme_tiqu_snippets_buttons_responsive.css' rel='stylesheet' type='text/css' t-ignore="true"/>
+        <link href='/fso_website_email_tiqu/static/src/css/email_theme_tiqu_iservice_generic.css' rel='stylesheet' type='text/css' t-ignore="true"/>
     </template>
     
     <!-- THEME 'tiqu' ASSETS EDITMODE -->
