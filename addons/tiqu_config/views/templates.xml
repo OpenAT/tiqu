@@ -68,6 +68,9 @@
             <link rel='stylesheet' href='/tiqu_config/static/src/css/tiqu_01_theme_buttons.css' t-ignore="true"/>
             <link rel='stylesheet' href='/tiqu_config/static/src/css/tiqu_02_shop.css' t-ignore="true"/>
             <link rel='stylesheet' href='/tiqu_config/static/src/css/tiqu_02_shop_categories.css' t-ignore="true"/>
+            <link rel='stylesheet' href='/tiqu_config/static/src/css/tiqu_90_iservice_generic.css' t-ignore="true"/>
+            <link rel='stylesheet' href='/tiqu_config/static/src/css/tiqu_91_iservice_shop.css' t-ignore="true"/>
+            <link rel='stylesheet' href='/tiqu_config/static/src/css/tiqu_92_iservice_shop_categories.css' t-ignore="true"/>
             <link rel='stylesheet' href='/tiqu_config/static/src/css/tiqu_09_glyphicons.css' t-ignore="true"/>
         </xpath>
     </template>
