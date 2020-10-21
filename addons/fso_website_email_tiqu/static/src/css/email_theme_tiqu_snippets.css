@@ -34,6 +34,7 @@
 .snippet_block_text_image_left.tiqu_sb_fg_red .flexibleContainerRight,
 .snippet_block_text_image_left.tiqu_sb_fg_green .flexibleContainerRight,
 .snippet_block_text_image_left.tiqu_sb_fg_grey .flexibleContainerRight,
+.snippet_block_text_image_left.tiqu_sb_fg_darkgrey .flexibleContainerRight,
 .snippet_block_text_image_left.tiqu_sb_fg_Orange .flexibleContainerRight,
 .snippet_block_text_image_left.tiqu_sb_fg_background .flexibleContainerRight {
     width: 340px;
@@ -47,6 +48,7 @@
 .snippet_block_text_image_right.tiqu_sb_fg_red .flexibleContainerLeft,
 .snippet_block_text_image_right.tiqu_sb_fg_green .flexibleContainerLeft,
 .snippet_block_text_image_right.tiqu_sb_fg_grey .flexibleContainerLeft,
+.snippet_block_text_image_right.tiqu_sb_fg_darkgrey .flexibleContainerLeft,
 .snippet_block_text_image_right.tiqu_sb_fg_Orange .flexibleContainerLeft,
 .snippet_block_text_image_right.tiqu_sb_fg_background .flexibleContainerLeft {
     width: 340px;
@@ -121,9 +123,15 @@
     background-color: #eeeeee;
     color: white;
 }
+.tiqu_sb_bg_darkgrey .flexibleContainerCell,
+.tiqu_sb_fg_darkgrey .flexibleContainerCell .nestedContainerCell {
+    background-color: #444444;
+    color: white;
+}
 .tiqu_sb_fg_background .flexibleContainerCell .nestedContainerCell,
 .tiqu_sb_fg_red .flexibleContainerCell .nestedContainerCell,
 .tiqu_sb_fg_grey .flexibleContainerCell .nestedContainerCell,
+.tiqu_sb_fg_darkgrey .flexibleContainerCell .nestedContainerCell,
 .tiqu_sb_fg_orange .flexibleContainerCell .nestedContainerCell,
 .tiqu_sb_fg_green .flexibleContainerCell .nestedContainerCell {
     padding-left: 20px;
@@ -381,6 +389,7 @@
 .snippet_block_text_image_left.tiqu_large_image.tiqu_sb_fg_red .flexibleContainerRight,
 .snippet_block_text_image_left.tiqu_large_image.tiqu_sb_fg_green .flexibleContainerRight,
 .snippet_block_text_image_left.tiqu_large_image.tiqu_sb_fg_grey .flexibleContainerRight,
+.snippet_block_text_image_left.tiqu_large_image.tiqu_sb_fg_darkgrey .flexibleContainerRight,
 .snippet_block_text_image_left.tiqu_large_image.tiqu_sb_fg_Orange .flexibleContainerRight,
 .snippet_block_text_image_left.tiqu_large_image.tiqu_sb_fg_background .flexibleContainerRight {
     width: 190px;
@@ -403,6 +412,7 @@
 .snippet_block_text_image_right.tiqu_large_image.tiqu_sb_fg_red .flexibleContainerLeft,
 .snippet_block_text_image_right.tiqu_large_image.tiqu_sb_fg_green .flexibleContainerLeft,
 .snippet_block_text_image_right.tiqu_large_image.tiqu_sb_fg_grey .flexibleContainerLeft,
+.snippet_block_text_image_right.tiqu_large_image.tiqu_sb_fg_darkgrey .flexibleContainerLeft,
 .snippet_block_text_image_right.tiqu_large_image.tiqu_sb_fg_Orange .flexibleContainerLeft,
 .snippet_block_text_image_right.tiqu_large_image.tiqu_sb_fg_background .flexibleContainerLeft {
     width: 190px;
@@ -423,6 +433,7 @@
 .snippet_block_text_image_left.tiqu_medium_image.tiqu_sb_fg_red .flexibleContainerRight,
 .snippet_block_text_image_left.tiqu_medium_image.tiqu_sb_fg_green .flexibleContainerRight,
 .snippet_block_text_image_left.tiqu_medium_image.tiqu_sb_fg_grey .flexibleContainerRight,
+.snippet_block_text_image_left.tiqu_medium_image.tiqu_sb_fg_darkgrey .flexibleContainerRight,
 .snippet_block_text_image_left.tiqu_medium_image.tiqu_sb_fg_background .flexibleContainerRight {
     width: 270px;
 }
@@ -444,6 +455,7 @@
 .snippet_block_text_image_right.tiqu_medium_image.tiqu_sb_fg_red .flexibleContainerLeft,
 .snippet_block_text_image_right.tiqu_medium_image.tiqu_sb_fg_green .flexibleContainerLeft,
 .snippet_block_text_image_right.tiqu_medium_image.tiqu_sb_fg_grey .flexibleContainerLeft,
+.snippet_block_text_image_right.tiqu_medium_image.tiqu_sb_fg_darkgrey .flexibleContainerLeft,
 .snippet_block_text_image_right.tiqu_medium_image.tiqu_sb_fg_background .flexibleContainerLeft {
     width: 270px;
 }
@@ -463,6 +475,7 @@
 .snippet_block_text_image_left.tiqu_small_image.tiqu_sb_fg_red .flexibleContainerRight,
 .snippet_block_text_image_left.tiqu_small_image.tiqu_sb_fg_green .flexibleContainerRight,
 .snippet_block_text_image_left.tiqu_small_image.tiqu_sb_fg_grey .flexibleContainerRight,
+.snippet_block_text_image_left.tiqu_small_image.tiqu_sb_fg_darkgrey .flexibleContainerRight,
 .snippet_block_text_image_left.tiqu_small_image.tiqu_sb_fg_background .flexibleContainerRight {
     width: 400px;
 }
@@ -484,6 +497,7 @@
 .snippet_block_text_image_right.tiqu_small_image.tiqu_sb_fg_red .flexibleContainerLeft,
 .snippet_block_text_image_right.tiqu_small_image.tiqu_sb_fg_green .flexibleContainerLeft,
 .snippet_block_text_image_right.tiqu_small_image.tiqu_sb_fg_grey .flexibleContainerLeft,
+.snippet_block_text_image_right.tiqu_small_image.tiqu_sb_fg_darkgrey .flexibleContainerLeft,
 .snippet_block_text_image_right.tiqu_small_image.tiqu_sb_fg_background .flexibleContainerLeft {
     width: 400px;
 }
@@ -504,6 +518,7 @@
 .snippet_block_text_image_left.tiqu_tiny_image.tiqu_sb_fg_red .flexibleContainerRight,
 .snippet_block_text_image_left.tiqu_tiny_image.tiqu_sb_fg_green .flexibleContainerRight,
 .snippet_block_text_image_left.tiqu_tiny_image.tiqu_sb_fg_grey .flexibleContainerRight,
+.snippet_block_text_image_left.tiqu_tiny_image.tiqu_sb_fg_darkgrey .flexibleContainerRight,
 .snippet_block_text_image_left.tiqu_tiny_image.tiqu_sb_fg_background .flexibleContainerRight {
     width: 450px;
 }
@@ -525,6 +540,7 @@
 .snippet_block_text_image_right.tiqu_tiny_image.tiqu_sb_fg_red .flexibleContainerLeft,
 .snippet_block_text_image_right.tiqu_tiny_image.tiqu_sb_fg_green .flexibleContainerLeft,
 .snippet_block_text_image_right.tiqu_tiny_image.tiqu_sb_fg_grey .flexibleContainerLeft,
+.snippet_block_text_image_right.tiqu_tiny_image.tiqu_sb_fg_darkgrey .flexibleContainerLeft,
 .snippet_block_text_image_right.tiqu_tiny_image.tiqu_sb_fg_background .flexibleContainerLeft {
     width: 450px;
 }

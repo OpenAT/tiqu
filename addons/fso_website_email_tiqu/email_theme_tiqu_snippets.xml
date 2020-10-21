@@ -61,6 +61,7 @@
                 <li data-value='tiqu_sb_fg_grey'><a>Grau</a></li>
                 <li data-value='tiqu_sb_fg_green'><a>Grün</a></li>
                 <li data-value='tiqu_sb_fg_Orange'><a>Orange</a></li>
+                <li data-value='tiqu_sb_fg_darkgrey'><a>Dunkelgrau</a></li>
                 <li data-value='tiqu_sb_fg_background'><a>Hintergrund</a></li>
             </ul>
         </xpath>
@@ -73,6 +74,7 @@
                 <li data-value='tiqu_sb_bg_grey'><a>Grau</a></li>
                 <li data-value='tiqu_sb_bg_green'><a>Grün</a></li>
                 <li data-value='tiqu_sb_bg_Orange'><a>Orange</a></li>
+                <li data-value='tiqu_sb_bg_darkgrey'><a>Dunkelgrau</a></li>
                 <li data-value='tiqu_sb_bg_background'><a>Hintergrund</a></li>
             </ul>
         </xpath>
