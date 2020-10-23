@@ -383,7 +383,7 @@
                                                                                                             <img class="flexibleImage"
                                                                                                                  src="/fso_website_email_tiqu/static/src/icons/button-unterstuetzen-sie-uns.png"
                                                                                                                  width="80"
-                                                                                                                 alt="herz unterstützen"
+                                                                                                                 alt="herz unterstuetzen"
                                                                                                                  style="display: block; border: 0px; outline: none; width: 100%; height: auto; max-height: 80px; max-width: 80px;"/>
                                                                                                             <h5>Unterstützen<br></br>
                                                                                                                 Sie uns
@@ -521,9 +521,13 @@
                                                                                                             <img src="/fso_website_email_tiqu/static/src/img/tierquartier_logo_stadtwien_trans-1.png" width="250" alt="tq und stadt Wien" style="display: block; border: 0px; outline: none; width: 100%; height: auto; max-height: 100px; max-width: 250px;" class="flexibleImage"/>
                                                                                                             <p style="text-align: center;">
                                                                                                                 <span style="color:#cccccc;">
+                                                                                                                    <a href="https://www.tierquartier.at/Impressum" target="_blank" style="color:#cccccc;">
                                                                                                                     Impressum
+                                                                                                                    </a>
                                                                                                                     |
+                                                                                                                    <a href="https://www.tierquartier.at/newsletter-abmeldung" target="_blank" style="color:#cccccc;">
                                                                                                                     Abmelden
+                                                                                                                    </a>
                                                                                                                 </span>
                                                                                                             </p>
                                                                                                         </td>
