@@ -46,14 +46,14 @@ a {
     /*
     font-family: "HelveticaNeueLT Com 45 Lt", Helvetica, Arial;
     */
-        font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-family: 'WienerMelange-TQ-BD',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #444444;
 }
 #emailBody ul li,
 #emailBody ol li {
-        font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+        font-family: 'WienerMelange-TQ-BD',Helvetica,Arial,Lucida,sans-serif;
         font-size: 18px;
         color: #444444;
 }
@@ -93,7 +93,7 @@ h1, h2, h3 {
 .h1, .h2, .h3, .h4, .h5, .h6,
 h1, h2, h3, h4, h5, h6 {
     /*font-family: 'PT Sans', 'Trebuchet MS', sans-serif;*/
-    font-family: 'Open Sans',Arial,sans-serif;
+    font-family: 'WienerMelange-TQ-BD',Helvetica,Arial,Lucida,sans-serif;
     line-height: 140%;
     color: #444444;
 
@@ -111,37 +111,37 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-margin-end: inherit;
 }
 .h1, h1 {
-    font-family: 'Open Sans',Arial,sans-serif;
+    font-family: 'WienerMelange-TQ-BD',Helvetica,Arial,Lucida,sans-serif;
     font-size: 46px;
     font-weight: 700;
     color: #444444;
 }
 .h2, h2 {
-    font-family: 'Open Sans',Arial,sans-serif;
+    font-family: 'WienerMelange-TQ-BD',Helvetica,Arial,Lucida,sans-serif;
     font-size: 35px;
     font-weight: 700;
     color: #444444;
 }
 .h3, h3 {
-    font-family: 'Open Sans',Arial,sans-serif;
+    font-family: 'WienerMelange-TQ-BD',Helvetica,Arial,Lucida,sans-serif;
     font-size: 24px;
     font-weight: 700;
     color: #444444;
 }
 .h4, h4 {
-    font-family: 'Open Sans',Arial,sans-serif;
+    font-family: 'WienerMelange-TQ-BD',Helvetica,Arial,Lucida,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #444444;
 }
 .h5, h5 {
-    font-family: 'Open Sans',Arial,sans-serif;
+    font-family: 'WienerMelange-TQ-BD',Helvetica,Arial,Lucida,sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #444444;
 }
 .h6, h6 {
-    font-family: 'Open Sans',Arial,sans-serif;
+    font-family: 'WienerMelange-TQ-BD',Helvetica,Arial,Lucida,sans-serif;
     font-size: 14px;
     font-weight: 300;
     color: #444444;

@@ -193,7 +193,7 @@
                                                                                             contenteditable="true">
                                                                                             <a data-cke-saved-href="#"
                                                                                                href="#">
-                                                                                                <img src="/fso_website_email_tiqu/static/src/img/header.jpg" class="flexibleImage snippet_block_banner_image"/>
+                                                                                                <img src="/fso_website_email_tiqu/static/src/img/header.jpg" style="display: block; border: 0px; outline: none; " class="flexibleImage snippet_block_banner_image"/>
                                                                                             </a>
                                                                                         </td>
                                                                                     </tr>
@@ -432,16 +432,16 @@
                                                                                         <td class="textContent ckediting_enabled">
                                                                                             <p style="text-align: center;">
                                                                                                 <a href="https://www.facebook.com/tierquartier/" target="_blank" style="display: inline-block; text-decoration: none;">
-                                                                                                    <img src="/fso_website_email_tiqu/static/src/icons/FB-Button.png" style="width:32px; margin: 0 20px; border:0 none;"/>
+                                                                                                    <img src="/fso_website_email_tiqu/static/src/icons/FB-Button.png" width="32" style="width:32px; margin: 0 20px; border:0 none;"/>
                                                                                                 </a>
                                                                                                 <a href="https://www.instagram.com/tierquartier/" target="_blank" style="display: inline-block; text-decoration: none;">
-                                                                                                    <img src="/fso_website_email_tiqu/static/src/icons/IG-Button.png" style="width:32px; margin: 0 20px; border:0 none;" />
+                                                                                                    <img src="/fso_website_email_tiqu/static/src/icons/IG-Button.png" width="32" style="width:32px; margin: 0 20px; border:0 none;" />
                                                                                                 </a>
                                                                                                 <a href="https://www.youtube.com/user/TierQuarTier" target="_blank" style="display: inline-block; text-decoration: none;">
-                                                                                                    <img src="/fso_website_email_tiqu/static/src/icons/YouTube-Button.png" style="width:32px; margin: 0 20px; border:0 none;"/>
+                                                                                                    <img src="/fso_website_email_tiqu/static/src/icons/YouTube-Button.png" width="32" style="width:32px; margin: 0 20px; border:0 none;"/>
                                                                                                 </a>
                                                                                                 <a href="https://twitter.com/hashtag/tierquartier" target="_blank" style="display: inline-block; text-decoration: none;">
-                                                                                                    <img src="/fso_website_email_tiqu/static/src/icons/Twitter-Button.png" style="width:32px; margin: 0 20px; border:0 none;"/>
+                                                                                                    <img src="/fso_website_email_tiqu/static/src/icons/Twitter-Button.png" width="32" style="width:32px; margin: 0 20px; border:0 none;"/>
                                                                                                 </a>
                                                                                             </p>
                                                                                         </td>

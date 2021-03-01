@@ -95,7 +95,7 @@
                 <link data-premailer="ignore" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&amp;display=swap" type="text/css" rel="stylesheet"/>
                 <link data-premailer="ignore" href='/fso_website_email_tiqu/static/src/css/custom_fonts_styles.css' rel='stylesheet' type='text/css' t-ignore="true"/>
                 <t t-call="fso_website_email.theme_head_common"/>
-                
+
                 <!-- THEME tiqu CSS-ASSETS IN EDIT MODE ONLY -->
                 <t t-if="email_editor_mode">
                     <t t-call-assets="fso_website_email_tiqu.email_theme_tiqu_assets_editmode" t-js="false"/>
@@ -106,7 +106,94 @@
                 
                 <meta name="viewport" content="width=device-width"/>
             </head>
+                <t t-set="olconditionals">
+                <![CDATA[
+                <!--[if mso 14]>
+                    <style type="text/css">
+                        h1, h2, h3, h4, h5, h6,
+                        .headerCell, .footerCell,
+                        .textContent, .textContentLast,
+                        .buttonContent,
+                        .emailCalendarDay, .emailCalendarMonth {
+                            font-family: Helvetica,Arial,Lucida,sans-serif !important;
+                            mso-line-height-rule: exactly;
+                        }
+                    </style>
+                <![endif]-->
+                <!--[if mso 16]>
+                    <style type="text/css">
+                        h1, h2, h3, h4, h5, h6,
+                        .headerCell, .footerCell,
+                        .textContent, .textContentLast,
+                        .buttonContent,
+                        .emailCalendarDay, .emailCalendarMonth {
+                            font-family: Helvetica,Arial,Lucida,sans-serif !important;
+                            mso-line-height-rule: exactly;
+                        }
+                    </style>
+                <![endif]-->
 
+                <!--[if mso]>
+                    <style type="text/css">
+                            /* Stop Outlook resizing small text. */
+                            * {
+                                 -ms-text-size-adjust: 100%;
+                            }
+                    </style>
+                    <style type="text/css">
+                            /* Stop Outlook from adding extra spacing to tables. */
+                            table,
+                            td {
+                                mso-table-lspace: 0pt;
+                                mso-table-rspace: 0pt;
+                            }
+                    </style>
+                    <style type="text/css">
+                            /* Use a better rendering method when resizing images in Outlook IE. */
+                            img {
+                                 -ms-interpolation-mode:bicubic;
+                            }
+                    </style>
+                    <style type="text/css">
+                            /* Prevent Windows 10 Mail from underlining links. Styles for underlined links should be inline. */
+                            a {
+                            text-decoration: none;
+                            }
+                    </style>
+                    <style type="text/css">
+                        * {
+                            font-family: Helvetica,Arial,Lucida,sans-serif !important;
+                        }
+                    </style>
+                    <style type="text/css">
+                      body,
+                      p,
+                      a,
+                      #emailBody ul li,
+                      #emailBody ol li {
+                            font-family: Helvetica,Arial,Lucida,sans-serif !important;
+                        }
+                    </style>
+                <![endif]-->
+                <!--[if mso]>
+                    <style type="text/css">
+                    * {-webkit-text-size-adjust: none}
+                    #emailBody span.drop_in_button a {
+                        padding: 0px 0px;
+                    }
+                    </style>
+                <![endif]-->
+                <!-—[if (gte mso 9) | (IE)]>
+                    <style type="text/css">
+                        /* Target all Outlook versions */
+                                table, tr, td, p{font-family: Helvetica,Arial,Lucida,sans-serif !important;}
+                    </style>
+                <![endif]-->
+            ]]>
+                </t>
+                <t t-raw="olconditionals">
+
+                </t>
 
             <body class="ckediting_disabled" contenteditable="false">
                 <!-- WRAP COMMON ASSETS AND BODY TAGS AROUND THEME 'tiqu' -->

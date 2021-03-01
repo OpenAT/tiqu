@@ -256,6 +256,10 @@ body .oe_blue {
     position: absolute !important;
 }
 
+/* special fix if someone change the field size, so modal goes still over 100% of viewport it needs the .ModalBoxFake100 to be added at this field which is not full width */
+.ModalBoxFake100 .modal {
+    width: calc(100vw);
+}
 #oe_main_menu_navbar div.modal.in > div.modal-dialog > div.modal-content {
     position: relative;
 }
