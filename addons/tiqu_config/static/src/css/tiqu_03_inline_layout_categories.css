@@ -1,71 +1,77 @@
-body[data-rootcatid="2"] .payment_interval_ids,
-body[data-rootcatid="2"] .checkout_steps_navigation {
+body[data-latest-product-id="3"] .payment_interval_ids,
+body[data-latest-product-id="3"] .checkout_steps_navigation {
     display: none;
 }
 
-body[data-rootcatid="2"] #wsd_checkout_pages_header {
+body[data-latest-product-id="3"] #wsd_checkout_pages_header {
     display: none;
 }
-body[data-rootcatid="2"] #wsd_checkout_steps_header h1 {
+body[data-latest-product-id="3"] #wsd_checkout_steps_header h1 {
     display: none;
 }
 /*wsd_checkout_steps_header h1:after {
     content: "payment method";
     visibility: visible;
 }*/
-body[data-rootcatid="2"] h3.small_cart_header:after {
+body[data-latest-product-id="3"] h3.small_cart_header:after {
     content: "donationcart";
 }
-body[data-rootcatid="2"] h3.small_cart_header span {
+body[data-latest-product-id="3"] h3.small_cart_header span {
     display: none;
 }
-body[data-rootcatid="2"] #cart_products > thead > tr > th:nth-child(1) {
+body[data-latest-product-id="3"] #cart_products > thead > tr > th:nth-child(1) {
     display:none;
 }
-body[data-rootcatid="2"] #cart_products > thead > tr > th {
+body[data-latest-product-id="3"] #cart_products > thead > tr > th {
     display: none;
 }
-body[data-rootcatid="2"] #cart_total {
+body[data-latest-product-id="3"] #cart_total {
     display: none;
 }
-body[data-rootcatid="2"] #cart_products > tbody > tr > td:nth-child(2) > div:nth-child(3) {
+body[data-latest-product-id="3"] #cart_products > tbody > tr > td:nth-child(2) > div:nth-child(3) {
     display: none;
 }
-body[data-rootcatid="2"] h3.checkout_title span {
+body[data-latest-product-id="3"] h3.checkout_title span {
     display: none;
 }
-body[data-rootcatid="2"] h3.checkout_title:after {
+body[data-latest-product-id="3"] h3.checkout_title:after {
     content: "Your Data";
 }
-body[data-rootcatid="2"] #wsd_checkout_form_submit_button > span.wsd_checkout_form_submit_button_text,
-body[data-rootcatid="2"] #wsd_checkout_form > div.clearfix.wsd_cfi_buttons > a.wsd_button_back_to_page.btn.btn-default > span.wsd_button_back_to_page_text {
+body[data-latest-product-id="3"] #wsd_checkout_form_submit_button > span.wsd_checkout_form_submit_button_text,
+body[data-latest-product-id="3"] #wsd_checkout_form > div.clearfix.wsd_cfi_buttons > a.wsd_button_back_to_page.btn.btn-default > span.wsd_button_back_to_page_text {
     display: none;
 }
-body[data-rootcatid="2"] #button_paynow:after {
+body[data-latest-product-id="3"] #button_paynow:after {
     content: "paynow";
 }
-body[data-rootcatid="2"] #button_paynow > span {
+body[data-latest-product-id="3"] #button_paynow > span {
     display: none;
 }
-body[data-rootcatid="2"] .payment_billing_address {
+body[data-latest-product-id="3"] .payment_billing_address {
     display: none;
 }
-body[data-rootcatid="2"] #payment_method > div > h3 > span {
+body[data-latest-product-id="3"] #payment_method > div > h3 > span {
     display: none;
 }
-body[data-rootcatid="2"] #payment_method > div > h3:after {
+body[data-latest-product-id="3"] #payment_method > div > h3:after {
     content: "payment methods";
 }
-body[data-rootcatid="2"] #payment_method > div:nth-child(2) > ul > li:nth-child(1) > a:after {
+body[data-latest-product-id="3"] #payment_method > div:nth-child(2) > ul > li:nth-child(1) > a:after {
     content: "indent";
 }
 
-body[data-rootcatid="2"] #payment_method > div:nth-child(2) > ul > li:nth-child(1) > a > span.tab-acquirer-name {
+body[data-latest-product-id="3"] #payment_method > div:nth-child(2) > ul > li:nth-child(1) > a > span.tab-acquirer-name {
     display: none;
 }
-body[data-rootcatid="2"] .acquirer_pre_msg {
+body[data-latest-product-id="3"] .acquirer_pre_msg {
     display: none;
 }
-body[data-rootcatid="2"] #payment_method > div:nth-child(2) > div {
+body[data-latest-product-id="3"] #payment_method > div:nth-child(2) > div {
     display: none;
+}
+
+body[data-latest-product-id="3"] .ppt_inline_donation #add_to_cart {
+    display: block;
+    max-width: 200px;
+    margin: auto;
 }
