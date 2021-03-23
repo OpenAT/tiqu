@@ -37,8 +37,8 @@ body[data-rootcatid="2"] h3.checkout_title span {
 body[data-rootcatid="2"] h3.checkout_title:after {
     content: "Your Data";
 }
-body[data-rootcatid="2"] #wsd_checkout_form_submit_button span.wsd_checkout_form_submit_button,
-body[data-rootcatid="2"] #wsd_checkout_form_submit_button span.wsd_button_back_to_page_text {
+body[data-rootcatid="2"] #wsd_checkout_form_submit_button > span.wsd_checkout_form_submit_button_text,
+body[data-rootcatid="2"] #wsd_checkout_form > div.clearfix.wsd_cfi_buttons > a.wsd_button_back_to_page.btn.btn-default > span.wsd_button_back_to_page_text {
     display: none;
 }
 body[data-rootcatid="2"] #button_paynow:after {

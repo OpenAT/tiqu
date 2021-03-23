@@ -49,7 +49,7 @@
 }
 
 /* reverse Shop Grid and Cart, move cart under shop grid */
-body[data-rootcatid="2"] #wrap > div.container.oe_website_sale > div.row {
+/*body[data-rootcatid="2"] #wrap > div.container.oe_website_sale > div.row {
     display: flex;
     flex-direction: column-reverse;
 }
@@ -58,7 +58,7 @@ body[data-rootcatid="2"] .products_pager .input-group {
 }
 body[data-rootcatid="2"] #products_grid_before {
     margin-top: 3.5em;
-}
+}*/
 
 /* reverse Shop Grid and Cart, move cart under shop grid */
 body[data-rootcatid="3"] #wrap > div.container.oe_website_sale > div.row {
