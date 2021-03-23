@@ -3,10 +3,10 @@ body[data-rootcatid="2"] .checkout_steps_navigation {
     display: none;
 }
 
-body[data-rootcatid="2"] wsd_checkout_pages_header {
+body[data-rootcatid="2"] #wsd_checkout_pages_header {
     display: none;
 }
-body[data-rootcatid="2"] wsd_checkout_steps_header h1 {
+body[data-rootcatid="2"] #wsd_checkout_steps_header h1 {
     display: none;
 }
 /*wsd_checkout_steps_header h1:after {
