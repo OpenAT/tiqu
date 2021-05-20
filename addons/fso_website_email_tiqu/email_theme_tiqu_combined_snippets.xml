@@ -325,16 +325,16 @@
                                                                                    cellspacing="0" class="contentTable">
                                                                                 <tbody>
                                                                                     <tr>
-                                                                                        <td class="textContent ckediting_enabled">
+                                                                                        <td class="textContent ckediting_enabled" style="line-height:1;">
                                                                                             <p style="text-align: center;">
                                                                                                 <a href="https://www.facebook.com/tierquartier/" target="_blank" style="display: inline-block; text-decoration: none;">
-                                                                                                    <img src="/fso_website_email_tiqu/static/src/icons/FB-Button.png" hspace="20" vspace="5" width="32" style="width:32px; margin: 0 20px; border:0 none;"/>
+                                                                                                    <img src="/fso_website_email_tiqu/static/src/icons/FB-Button.png" hspace="20" vspace="5" width="32" style="display: block; width:32px; margin: 0 20px; border:0 none;"/>
                                                                                                 </a>
                                                                                                 <a href="https://www.instagram.com/tierquartier/" target="_blank" style="display: inline-block; text-decoration: none;">
-                                                                                                    <img src="/fso_website_email_tiqu/static/src/icons/IG-Button.png" hspace="20" vspace="5" width="32" style="width:32px; margin: 0 20px; border:0 none;" />
+                                                                                                    <img src="/fso_website_email_tiqu/static/src/icons/IG-Button.png" hspace="20" vspace="5" width="32" style="display: block; width:32px; margin: 0 20px; border:0 none;" />
                                                                                                 </a>
                                                                                                 <a href="https://www.youtube.com/user/TierQuarTier" target="_blank" style="display: inline-block; text-decoration: none;">
-                                                                                                    <img src="/fso_website_email_tiqu/static/src/icons/YouTube-Button.png" hspace="20" vspace="5" width="32" style="width:32px; margin: 0 20px; border:0 none;"/>
+                                                                                                    <img src="/fso_website_email_tiqu/static/src/icons/YouTube-Button.png" hspace="20" vspace="5" width="32" style="display: block; width:32px; margin: 0 20px; border:0 none;"/>
                                                                                                 </a>
                                                                                             </p>
                                                                                         </td>
