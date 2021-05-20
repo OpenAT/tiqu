@@ -11,15 +11,32 @@
     /*table.flexibleContainer {*/
     /*    width: 100% !important;*/
     /*}*/
+    #combinedheadersnippet img.flexibleImage.tqtlogo {
+        width: 180px !important;
+        max-width: 180px !important;
+    }
+    #combinedheadersnippet img.flexibleImage.spendenbuttontq {
+        width: 250px !important;
+        max-width: 250px !important;
+    }
+    #combinedheadersnippet td.headerlogos {
+        display: inline-block !important;
+    }
+    #combinedsnippetfooter td.footerlogotq {
+         display: inline-block !important;
+    }
+    #combinedsnippetfooter img.flexibleImage.footerlogo {
+    width: 100% !important;
+    max-width: 300px !important;
+}
     #combinedsnippetfooter #actionsection img.flexibleImage {
         max-width: 80px;
         width: 80px;
-
     }
-    #combinedheadersnippet img.flexibleImage.tqtlogo {
+/*    #combinedheadersnippet img.flexibleImage.tqtlogo {
         max-width: 122px;
         width: 122px;
-    }
+    }*/
 
     #combinedsnippetfooter #mediaicons table.flexibleContainerLeft img.flexibleImage {
         width: 32px !important;
@@ -49,22 +66,22 @@
 
     .h3, h3{
         font-size: 20px;
-        font-weight: 300;
+        font-weight: 700;
     }
 
     .h4, h4{
         font-size: 18px;
-        font-weight: 300;
+        font-weight: 500;
     }
 
     .h5, h5{
         font-size: 16px;
-        font-weight: 300;
+        font-weight: 500;
     }
 
     .h6, h6{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 500;
     }
 
     .snippet_block_text_image_left.wita_text_image_witagrey_box .flexibleContainerRight .textContent,

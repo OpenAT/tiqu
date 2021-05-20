@@ -544,3 +544,9 @@
 .snippet_block_text_image_right.tiqu_tiny_image.tiqu_sb_fg_background .flexibleContainerLeft {
     width: 450px;
 }
+img.flexibleImage.tqtlogo {
+    float: left;
+}
+img.flexibleImage.spendenbuttontq {
+    float: right;
+}

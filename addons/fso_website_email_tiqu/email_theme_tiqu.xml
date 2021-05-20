@@ -115,7 +115,7 @@
                         .textContent, .textContentLast,
                         .buttonContent,
                         .emailCalendarDay, .emailCalendarMonth {
-                            font-family: Helvetica,Arial,Lucida,sans-serif !important;
+                            font-family: 'Arial', Verdana !important;
                             mso-line-height-rule: exactly;
                         }
                     </style>
@@ -127,7 +127,7 @@
                         .textContent, .textContentLast,
                         .buttonContent,
                         .emailCalendarDay, .emailCalendarMonth {
-                            font-family: Helvetica,Arial,Lucida,sans-serif !important;
+                            font-family: 'Arial', Verdana !important;
                             mso-line-height-rule: exactly;
                         }
                     </style>
@@ -162,7 +162,7 @@
                     </style>
                     <style type="text/css">
                         * {
-                            font-family: Helvetica,Arial,Lucida,sans-serif !important;
+                            font-family: 'Arial', Verdana !important;
                         }
                     </style>
                     <style type="text/css">
@@ -171,7 +171,7 @@
                       a,
                       #emailBody ul li,
                       #emailBody ol li {
-                            font-family: Helvetica,Arial,Lucida,sans-serif !important;
+                            font-family: 'Arial', Verdana !important;
                         }
                     </style>
                 <![endif]-->
@@ -186,7 +186,7 @@
                 <!-—[if (gte mso 9) | (IE)]>
                     <style type="text/css">
                         /* Target all Outlook versions */
-                                table, tr, td, p{font-family: Helvetica,Arial,Lucida,sans-serif !important;}
+                                table, tr, td, p{font-family: 'Arial', Verdana !important;}
                     </style>
                 <![endif]-->
             ]]>
