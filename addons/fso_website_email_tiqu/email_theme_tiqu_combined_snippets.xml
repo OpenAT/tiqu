@@ -102,7 +102,7 @@
                                                                                                     <td align="center"
                                                                                                         class="imageContent ckediting_enabled headerlogos"
                                                                                                         valign="top">
-                                                                                                        <a href="https://www.tierquartier.at">
+                                                                                                        <a href="https://www.tierquartier.at" target="_blank">
                                                                                                             <img class="flexibleImage tqtlogo"
                                                                                                                  src="/fso_website_email_tiqu/static/src/img/TQT_Logofreigestellt.png"
                                                                                                                  width="180"
@@ -123,7 +123,7 @@
                                                                                                     <td align="center"
                                                                                                         class="imageContent ckediting_enabled headerlogos"
                                                                                                         valign="top">
-                                                                                                        <a href="https://www.tierquartier.at/unterstuetzen-sie-uns/spendenprojekte/">
+                                                                                                        <a href="https://www.tierquartier.at/unterstuetzen-sie-uns/spendenprojekte/" target="_blank">
                                                                                                             <img class="flexibleImage spendenbuttontq"
                                                                                                                  src="/fso_website_email_tiqu/static/src/img/Spendenbutton.png"
                                                                                                                  width="160"
