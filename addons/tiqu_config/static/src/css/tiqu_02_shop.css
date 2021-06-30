@@ -400,3 +400,7 @@ div.checkout_steps_buttons {
 #products_grid_before .text-left small_cart_buttons .clearfix {
     float: right;
 }
+
+.progress-bar-success {
+    background-color: #d80029;
+}
