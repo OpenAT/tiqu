@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="fson_name_plaque" model="mail.message.subtype">
+            <field name="name">FS-Online Name Plaque</field>
+            <field name="res_model" eval="False"/>
+            <field name="default" eval="False"/>
+            <field name="xml_id">fso_mail_message_subtypes_name_plaque.fson_name_plaque</field>
+        </record>
+
+    </data>
+</openerp>
