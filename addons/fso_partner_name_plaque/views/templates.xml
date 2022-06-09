@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <template id="fso_partner_name_plaque" name="Tiqu sspecial plaque fields" inherit_id="website.layout">
+                <xpath expr="//head" position="inside">
+                    <!--<t t-if="category.id == 4 if category else False">-->
+                        <link rel='stylesheet' href='/fso_partner_name_plaque/static/src/css/css_styles_plaque.css' t-ignore="true"/>
+                    <!--</t>-->
+                </xpath>
+                <xpath expr="//body" position="inside">
+                        <t t-if="category.id == 3 if category else False">
+                            <script type="text/javascript" src="/fso_partner_name_plaque/static/src/js/plaque_fields.js"/>
+                        </t>
+                </xpath>
+        </template>
+    </data>
+</openerp>
