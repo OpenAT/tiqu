@@ -25,6 +25,7 @@ Customer configuration for the instance tiqu
         'website_sale_donate',
     ],
     'data': [
+        'views/res_partner.xml',
         'views/templates.xml',
         'views/snippet_options.xml',
     ],
