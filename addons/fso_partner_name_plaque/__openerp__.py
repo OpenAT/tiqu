@@ -30,5 +30,6 @@ Adds two name plaque fields to partner.
         'fso_mail_message_subtypes_name_plaque',
     ],
     'data': [
+        'views/templates.xml',
     ],
 }
