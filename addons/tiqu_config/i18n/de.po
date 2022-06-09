@@ -58,3 +58,13 @@ msgstr "vierteljährlich"
 #: view:website:website_sale_donate.checkoutbox
 msgid "Donate Now!"
 msgstr "jetzt Spenden"
+
+#. module: tiqu_config
+#: field:res.partner,sponsor_report_email:0
+msgid "Sponsor report via E-Mail"
+msgstr "Tierpatenschaftreport per E-Mail"
+
+#. module: tiqu_config
+#: field:res.partner,sponsor_report_post:0
+msgid "Sponsor report via postal service"
+msgstr "Tierpatenschaftreport per Post"
