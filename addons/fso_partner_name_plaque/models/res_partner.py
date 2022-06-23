@@ -13,11 +13,11 @@ class ResPartnerNamePlaque(models.Model):
     name_plaque_line2 = fields.Char(string='Name Plaque Line 2', size=15)
 
     def create_plaque_mail_message(self, partner, values):
-        if "name_plaque_line1" in values or "name_plaque_line2" in values:
-            line1 = values.get('name_plaque_line1', '')
-            line2 = values.get('name_plaque_line2', '')
-            message_body = line1 + "\n" + \
-                           line2 + "\n" + \
+        line1 = values.get('name_plaque_line1', False)
+        line2 = values.get('name_plaque_line2', False)
+        if line1 or line2:
+            message_body = line1 if line1 else "" + "\n" + \
+                           line2 if line2 else "" + "\n" + \
                            '---\n' +\
                            'Namensplakette'
 
