@@ -10,7 +10,7 @@ function checkValuesToggleFields(amountLimit, classname) {
     for (index = 0; index < objElements.length; index++) {
 
         var element = objElements[index];
-        if (donationvalueToInt > amountLimit) {
+        if (donationvalueToInt >= amountLimit) {
             element.classList.remove("hidden");
         }
         else {
