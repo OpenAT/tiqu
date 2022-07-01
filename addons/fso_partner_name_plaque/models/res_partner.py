@@ -16,8 +16,8 @@ class ResPartnerNamePlaque(models.Model):
         line1 = values.get('name_plaque_line1', False)
         line2 = values.get('name_plaque_line2', False)
         if line1 or line2:
-            message_body = line1 if line1 else "" + "\n" + \
-                           line2 if line2 else "" + "\n" + \
+            message_body = (line1 if line1 else "") + "\n" + \
+                           (line2 if line2 else "") + "\n" + \
                            '---\n' +\
                            'Namensplakette'
 
