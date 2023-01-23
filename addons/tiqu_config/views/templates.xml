@@ -60,7 +60,7 @@
                 <!--<link rel='stylesheet' href='/tiqu_config/static/src/css/bootstrap_tiqu/css/bootstrap-theme.min.css' t-ignore="true"/> -->
                 <!--<link rel='stylesheet' href='/tiqu_config/static/src/css/tiqu.css' t-ignore="true"/>-->
                 <!--<script type="text/javascript" src="/tiqu_config/static/src/js/textreplace.js"/>-->
-                <link data-premailer="ignore" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&amp;display=swap" type="text/css" rel="stylesheet"/>
+                <link data-premailer="ignore" href="/tiqu_config/static/src/fonts/opensans/opensans.css" type="text/css" rel="stylesheet"/>
                 <!-- BY MIKE -->
                 <link rel='stylesheet' href='/tiqu_config/static/src/css/tiqu_bootstrap/css/bootstrap.css' t-ignore="true"/>
                 <link rel='stylesheet' href='/tiqu_config/static/src/css/tiqu_bootstrap/css/bootstrap-theme.css' t-ignore="true"/>

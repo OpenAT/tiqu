@@ -75,8 +75,7 @@
 
             <head>
                 <!-- COMMON CSS-ASSETS AND <head> TAGS -->
-                <!-- get it from here https://fonts.google.com/specimen/Open+Sans?sidebar.open=true&selection.family=Open+Sans -->
-                <link data-premailer="ignore" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300;1,400&amp;display=swap" rel="stylesheet" type="text/css" t-ignore="true"/>
+                <link data-premailer="ignore" href="/tiqu_config/static/src/fonts/opensans/opensans.css" rel="stylesheet" type="text/css" t-ignore="true"/>
                 <!-- Preserve @Fontface with premailer even "keep_style_tags=False" -->
                  <style type="text/css" data-premailer="ignore">
                      <![CDATA[
@@ -92,7 +91,7 @@
                </style>
                 <link data-premailer="ignore" href="https://db.onlinewebfonts.com/c/d064de6e0d13377cef8e4b7a1d77a317?family=Helvetica+LT+CondensedBlack" rel="stylesheet" type="text/css" t-ignore="true"/>
                 <link data-premailer="ignore" href="https://db.onlinewebfonts.com/c/ad4f223f08dab24cfc81e643bb88cc66?family=Helvetica+Neue" rel="stylesheet" type="text/css" t-ignore="true"/>
-                <link data-premailer="ignore" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&amp;display=swap" type="text/css" rel="stylesheet"/>
+                <link data-premailer="ignore" href="/tiqu_config/static/src/fonts/opensans/opensans.css" type="text/css" rel="stylesheet"/>
                 <link data-premailer="ignore" href='/fso_website_email_tiqu/static/src/css/custom_fonts_styles.css' rel='stylesheet' type='text/css' t-ignore="true"/>
                 <t t-call="fso_website_email.theme_head_common"/>
 
